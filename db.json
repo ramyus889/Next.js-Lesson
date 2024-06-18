@@ -1,31 +1,22 @@
 {
-  "posts": [
+  "products": [
     {
       "id": 1,
-      "title": "Post 1"
+      "title": "products 1",
+      "price": 800,
+      "description": "description 1"
     },
     {
       "id": 2,
-      "title": "Post 2"
+      "title": "products 2",
+      "price": 1000,
+      "description": "description 2"
     },
     {
       "id": 3,
-      "title": "Post 3"
+      "title": "products 3",
+      "price": 1200,
+      "description": "description 3"
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

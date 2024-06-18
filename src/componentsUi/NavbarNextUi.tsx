@@ -145,6 +145,30 @@ export default function App() {
             product-detail
           </Link>
         </NavbarItem>
+        <NavbarItem>
+          <Link
+            className={`  pe-5 ${
+              pathname === "/server-route"
+                ? "font-bold text-red-500"
+                : "text-black dark:text-white"
+            } `}
+            href="/server-route"
+          >
+            server-route
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link
+            className={`  pe-5 ${
+              pathname === "/fetchData"
+                ? "font-bold text-red-500"
+                : "text-black dark:text-white"
+            } `}
+            href="/fetchData"
+          >
+            fetchData
+          </Link>
+        </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem className="hidden items-center gap-5 sm:flex">
