@@ -18,7 +18,7 @@ export default function About({
       <div className="ms-20 mt-20  flex gap-4">
         <div className="flex flex-col gap-2">
           <div className="rounded-xl border border-slate-500 px-6 py-3  text-center">
-            {users}ф
+            {users}
           </div>
           <div className="rounded-xl border border-slate-500 px-6 py-3 text-center">
             {revenue}
